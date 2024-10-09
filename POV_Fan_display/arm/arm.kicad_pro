@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -165,8 +171,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -491,26 +504,6 @@
     [
       "f777a9eb-56c8-4879-8e08-7d85ebd3acf2",
       "LEDs_with_caps_5"
-    ],
-    [
-      "595eae3d-4dc8-47ed-b8ab-230e10250012",
-      "LEDs_with_caps_6"
-    ],
-    [
-      "9ec4391f-b14f-4079-88ad-8afdadc223f7",
-      "LEDs_with_caps_7"
-    ],
-    [
-      "63542ad3-2840-464e-9bb7-d633714870d0",
-      "LEDs_with_caps_9"
-    ],
-    [
-      "514687cc-ed14-4316-852c-18bb66d20e3b",
-      "LEDs_with_caps_8"
-    ],
-    [
-      "fedc8b34-1a8f-4e83-9253-26f2a0295446",
-      "LEDs_with_caps_10"
     ]
   ],
   "text_variables": {}
