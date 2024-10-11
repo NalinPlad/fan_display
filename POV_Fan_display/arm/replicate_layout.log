@@ -1,0 +1,84 @@
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'darwin'
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.5-0
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x12fb78550>
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with D8 as a reference
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'D8'
+Located on: ['LEDs_with_caps_1']
+With filenames: ['LED_group.kicad_sch']
+With sheet_id:['LEDs_with_caps_1']
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('D8', ['LEDs_with_caps_1']), ('D16', ['LEDs_with_caps_2']), ('D32', ['LEDs_with_caps_4']), ('D24', ['LEDs_with_caps_3']), ('D40', ['LEDs_with_caps_5'])]
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'LEDs_with_caps_1', file:'LED_group.kicad_sch'
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['LEDs_with_caps_2'], ['LEDs_with_caps_3'], ['LEDs_with_caps_4'], ['LEDs_with_caps_5']]
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['LEDs_with_caps_1']
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1291, 134)
+10-09 22:16:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(852, 134)
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'LEDs_with_caps_1', file:'LED_group.kicad_sch'
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['LEDs_with_caps_2'], ['LEDs_with_caps_3'], ['LEDs_with_caps_4'], ['LEDs_with_caps_5']]
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['LEDs_with_caps_3'], ['LEDs_with_caps_4'], ['LEDs_with_caps_5']]
+on level: ['LEDs_with_caps_1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+10-09 22:16:44 root 332:updating GUI message: 'Preparing for replication'
+10-09 22:16:44 root 337:updating GUI with: 0
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+10-09 22:16:44 root 337:updating GUI with: 66
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+10-09 22:16:44 root 332:updating GUI message: 'Replicating footprints'
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['LEDs_with_caps_3']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['LEDs_with_caps_4']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['LEDs_with_caps_5']
+10-09 22:16:44 root 337:updating GUI with: 83
+10-09 22:16:44 root 332:updating GUI message: 'Replicating tracks'
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['LEDs_with_caps_3']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'DIN'] and dst net: ['', 'LEDs_with_caps_2', 'DOUT'], with src_net_depth=2, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LEDs_with_caps_3'] :[('Net-(D7-DOUT)', 'Net-(D23-DOUT)'), ('Net-(D5-DOUT)', 'Net-(D21-DOUT)'), ('Net-(D4-DOUT)', 'Net-(D20-DOUT)'), ('+5V', '+5V'), ('Net-(D1-DOUT)', 'Net-(D17-DOUT)'), ('Net-(D2-DOUT)', 'Net-(D18-DOUT)'), ('/LEDs_with_caps_1/DOUT', '/LEDs_with_caps_3/DOUT'), ('GND', 'GND'), ('/DIN', '/LEDs_with_caps_2/DOUT'), ('Net-(D6-DOUT)', 'Net-(D22-DOUT)'), ('Net-(D3-DOUT)', 'Net-(D19-DOUT)')]
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['LEDs_with_caps_4']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'DIN'] and dst net: ['', 'LEDs_with_caps_3', 'DOUT'], with src_net_depth=2, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LEDs_with_caps_4'] :[('+5V', '+5V'), ('/DIN', '/LEDs_with_caps_3/DOUT'), ('Net-(D5-DOUT)', 'Net-(D29-DOUT)'), ('GND', 'GND'), ('Net-(D3-DOUT)', 'Net-(D27-DOUT)'), ('Net-(D6-DOUT)', 'Net-(D30-DOUT)'), ('Net-(D7-DOUT)', 'Net-(D31-DOUT)'), ('Net-(D1-DOUT)', 'Net-(D25-DOUT)'), ('Net-(D2-DOUT)', 'Net-(D26-DOUT)'), ('Net-(D4-DOUT)', 'Net-(D28-DOUT)'), ('/LEDs_with_caps_1/DOUT', '/LEDs_with_caps_4/DOUT')]
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['LEDs_with_caps_5']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'DIN'] and dst net: ['', 'LEDs_with_caps_4', 'DOUT'], with src_net_depth=2, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LEDs_with_caps_5'] :[('/DIN', '/LEDs_with_caps_4/DOUT'), ('Net-(D1-DOUT)', 'Net-(D33-DOUT)'), ('+5V', '+5V'), ('Net-(D6-DOUT)', 'Net-(D38-DOUT)'), ('Net-(D7-DOUT)', 'Net-(D39-DOUT)'), ('GND', 'GND'), ('Net-(D2-DOUT)', 'Net-(D34-DOUT)'), ('/LEDs_with_caps_1/DOUT', '/LEDs_with_caps_5/DOUT'), ('Net-(D3-DOUT)', 'Net-(D35-DOUT)'), ('Net-(D4-DOUT)', 'Net-(D36-DOUT)'), ('Net-(D5-DOUT)', 'Net-(D37-DOUT)')]
+10-09 22:16:44 root 332:updating GUI message: 'Replicating zones'
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+10-09 22:16:44 root 337:updating GUI with: 0
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['LEDs_with_caps_3']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'DIN'] and dst net: ['', 'LEDs_with_caps_2', 'DOUT'], with src_net_depth=2, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LEDs_with_caps_3'] :[('Net-(D7-DOUT)', 'Net-(D23-DOUT)'), ('Net-(D5-DOUT)', 'Net-(D21-DOUT)'), ('Net-(D4-DOUT)', 'Net-(D20-DOUT)'), ('+5V', '+5V'), ('Net-(D1-DOUT)', 'Net-(D17-DOUT)'), ('Net-(D2-DOUT)', 'Net-(D18-DOUT)'), ('/LEDs_with_caps_1/DOUT', '/LEDs_with_caps_3/DOUT'), ('GND', 'GND'), ('/DIN', '/LEDs_with_caps_2/DOUT'), ('Net-(D6-DOUT)', 'Net-(D22-DOUT)'), ('Net-(D3-DOUT)', 'Net-(D19-DOUT)')]
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['LEDs_with_caps_4']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'DIN'] and dst net: ['', 'LEDs_with_caps_3', 'DOUT'], with src_net_depth=2, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LEDs_with_caps_4'] :[('+5V', '+5V'), ('/DIN', '/LEDs_with_caps_3/DOUT'), ('Net-(D5-DOUT)', 'Net-(D29-DOUT)'), ('GND', 'GND'), ('Net-(D3-DOUT)', 'Net-(D27-DOUT)'), ('Net-(D6-DOUT)', 'Net-(D30-DOUT)'), ('Net-(D7-DOUT)', 'Net-(D31-DOUT)'), ('Net-(D1-DOUT)', 'Net-(D25-DOUT)'), ('Net-(D2-DOUT)', 'Net-(D26-DOUT)'), ('Net-(D4-DOUT)', 'Net-(D28-DOUT)'), ('/LEDs_with_caps_1/DOUT', '/LEDs_with_caps_4/DOUT')]
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['LEDs_with_caps_5']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', 'DIN'] and dst net: ['', 'LEDs_with_caps_4', 'DOUT'], with src_net_depth=2, dst_net_depth=3, src_fp_depth=1, dst_fp_depth=1, match level 0.70
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LEDs_with_caps_5'] :[('/DIN', '/LEDs_with_caps_4/DOUT'), ('Net-(D1-DOUT)', 'Net-(D33-DOUT)'), ('+5V', '+5V'), ('Net-(D6-DOUT)', 'Net-(D38-DOUT)'), ('Net-(D7-DOUT)', 'Net-(D39-DOUT)'), ('GND', 'GND'), ('Net-(D2-DOUT)', 'Net-(D34-DOUT)'), ('/LEDs_with_caps_1/DOUT', '/LEDs_with_caps_5/DOUT'), ('Net-(D3-DOUT)', 'Net-(D35-DOUT)'), ('Net-(D4-DOUT)', 'Net-(D36-DOUT)'), ('Net-(D5-DOUT)', 'Net-(D37-DOUT)')]
+10-09 22:16:44 root 332:updating GUI message: 'Replicating text'
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['LEDs_with_caps_3']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['LEDs_with_caps_4']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['LEDs_with_caps_5']
+10-09 22:16:44 root 332:updating GUI message: 'Replicating drawings'
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+10-09 22:16:44 root 337:updating GUI with: 0
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['LEDs_with_caps_3']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['LEDs_with_caps_4']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['LEDs_with_caps_5']
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+10-09 22:16:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint D25, pad 4
+Footprint D33, pad 4
+Footprint D17, pad 4
+
